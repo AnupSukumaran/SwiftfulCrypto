@@ -28,6 +28,7 @@
 		F5A38FB4295B2ED900E322FE /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A38FB3295B2ED900E322FE /* PreviewProvider.swift */; };
 		F5A38FB6295B39DC00E322FE /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A38FB5295B39DC00E322FE /* Double.swift */; };
 		F5A38FB8295C7D8900E322FE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A38FB7295C7D8900E322FE /* HomeViewModel.swift */; };
+		F5C896B5296E056A004DDB5D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C896B4296E056A004DDB5D /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		F5A38FB3295B2ED900E322FE /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		F5A38FB5295B39DC00E322FE /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		F5A38FB7295C7D8900E322FE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F5C896B4296E056A004DDB5D /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				F53D50B1296043800034B501 /* NetworkingManager.swift */,
+				F5C896B4296E056A004DDB5D /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				F5A38FB2295B2E3400E322FE /* CoinRowView.swift in Sources */,
 				F5A38FB8295C7D8900E322FE /* HomeViewModel.swift in Sources */,
 				F576AF8A294C826600B6ADCA /* ContentView.swift in Sources */,
+				F5C896B5296E056A004DDB5D /* LocalFileManager.swift in Sources */,
 				F576AFBA294C885100B6ADCA /* HomeView.swift in Sources */,
 				F53D50B52963051C0034B501 /* CoinImageView.swift in Sources */,
 				F576AF88294C826600B6ADCA /* SwiftfulCryptoApp.swift in Sources */,
