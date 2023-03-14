@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F525541329B8D0E6000358AA /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525541229B8D0E6000358AA /* StatisticView.swift */; };
 		F53D50AF295DF2290034B501 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53D50AE295DF2290034B501 /* CoinDataService.swift */; };
 		F53D50B2296043800034B501 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53D50B1296043800034B501 /* NetworkingManager.swift */; };
 		F53D50B52963051C0034B501 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53D50B42963051C0034B501 /* CoinImageView.swift */; };
@@ -32,6 +33,7 @@
 		F5BF8669297413F300151888 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF8668297413F300151888 /* SearchBarView.swift */; };
 		F5BF866B29741EBA00151888 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BF866A29741EBA00151888 /* UIApplication.swift */; };
 		F5C896B5296E056A004DDB5D /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C896B4296E056A004DDB5D /* LocalFileManager.swift */; };
+		F5FE5CAD29C10EB20093D277 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FE5CAC29C10EB20093D277 /* HomeStatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F525541229B8D0E6000358AA /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		F53D50AE295DF2290034B501 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		F53D50B1296043800034B501 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		F53D50B42963051C0034B501 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
@@ -80,6 +83,7 @@
 		F5BF8668297413F300151888 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F5BF866A29741EBA00151888 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		F5C896B4296E056A004DDB5D /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		F5FE5CAC29C10EB20093D277 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +233,7 @@
 			children = (
 				F576AFB8294C881900B6ADCA /* HomeView.swift */,
 				F5A38FB1295B2E3400E322FE /* CoinRowView.swift */,
+				F5FE5CAC29C10EB20093D277 /* HomeStatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 				F53D50B3296305000034B501 /* CoinImage */,
 				F576AFBC294C8B5400B6ADCA /* CircleButtons */,
 				F5BF8668297413F300151888 /* SearchBarView.swift */,
+				F525541229B8D0E6000358AA /* StatisticView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -406,6 +412,7 @@
 				F576AF8A294C826600B6ADCA /* ContentView.swift in Sources */,
 				F5C896B5296E056A004DDB5D /* LocalFileManager.swift in Sources */,
 				F576AFBA294C885100B6ADCA /* HomeView.swift in Sources */,
+				F525541329B8D0E6000358AA /* StatisticView.swift in Sources */,
 				F53D50B52963051C0034B501 /* CoinImageView.swift in Sources */,
 				F576AF88294C826600B6ADCA /* SwiftfulCryptoApp.swift in Sources */,
 				F5BF866B29741EBA00151888 /* UIApplication.swift in Sources */,
@@ -413,6 +420,7 @@
 				F576AFB3294C846200B6ADCA /* Color.swift in Sources */,
 				F5BF8669297413F300151888 /* SearchBarView.swift in Sources */,
 				F53D50B2296043800034B501 /* NetworkingManager.swift in Sources */,
+				F5FE5CAD29C10EB20093D277 /* HomeStatsView.swift in Sources */,
 				F576AFC0294CCB2600B6ADCA /* CircleButtonAnimationView.swift in Sources */,
 				F5840B4B296CAA4D0097428F /* CoinImageViewModel.swift in Sources */,
 				F5A38FB4295B2ED900E322FE /* PreviewProvider.swift in Sources */,
